@@ -147,7 +147,7 @@ class YoloNode(LifecycleNode):
             )
 
         self._sub = self.create_subscription(
-            Image, "/camera", self.image_cb, self.image_qos_profile
+            Image, "image_raw", self.image_cb, self.image_qos_profile
         )
 
         super().on_activate(state)
@@ -324,7 +324,7 @@ class YoloNode(LifecycleNode):
         if self.enable:
 
             # convert image + predict
-            cv_image = self.cv_bridge.imgmsg_to_cv2(msg, "bgr8")
+            cv_image = self.cv_bridge.imgmsg_to_cv2(msg)
             cv_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2RGB)
             results = self.yolo.predict(
                 source=cv_image,

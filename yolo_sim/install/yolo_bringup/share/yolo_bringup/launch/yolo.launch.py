@@ -1,4 +1,4 @@
-# Copyright (C) 2023 Miguel Ángel González Santamarta
+# Copyright (C) 2023  Miguel Ángel González Santamarta
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -38,9 +38,7 @@ def generate_launch_description():
 
         model = LaunchConfiguration("model")
         model_cmd = DeclareLaunchArgument(
-            "model",
-            default_value="yolov8m.pt",
-            description="Model name or path",
+            "model", default_value="yolov8m.pt", description="Model name or path"
         )
 
         tracker = LaunchConfiguration("tracker")
@@ -52,16 +50,12 @@ def generate_launch_description():
 
         device = LaunchConfiguration("device")
         device_cmd = DeclareLaunchArgument(
-            "device",
-            default_value="cuda:0",
-            description="Device to use (GPU/CPU)",
+            "device", default_value="cuda:0", description="Device to use (GPU/CPU)"
         )
 
         enable = LaunchConfiguration("enable")
         enable_cmd = DeclareLaunchArgument(
-            "enable",
-            default_value="True",
-            description="Whether to start YOLO enabled",
+            "enable", default_value="True", description="Whether to start YOLO enabled"
         )
 
         threshold = LaunchConfiguration("threshold")
@@ -73,9 +67,7 @@ def generate_launch_description():
 
         iou = LaunchConfiguration("iou")
         iou_cmd = DeclareLaunchArgument(
-            "iou",
-            default_value="0.7",
-            description="IoU threshold",
+            "iou", default_value="0.7", description="IoU threshold"
         )
 
         imgsz_height = LaunchConfiguration("imgsz_height")
@@ -87,9 +79,7 @@ def generate_launch_description():
 
         imgsz_width = LaunchConfiguration("imgsz_width")
         imgsz_width_cmd = DeclareLaunchArgument(
-            "imgsz_width",
-            default_value="640",
-            description="Image width for inference",
+            "imgsz_width", default_value="640", description="Image width for inference"
         )
 
         half = LaunchConfiguration("half")
@@ -130,14 +120,14 @@ def generate_launch_description():
         input_image_topic = LaunchConfiguration("input_image_topic")
         input_image_topic_cmd = DeclareLaunchArgument(
             "input_image_topic",
-            default_value="/camera/rgb/image_raw",
+            default_value="/camera",
             description="Name of the input image topic",
         )
 
         image_reliability = LaunchConfiguration("image_reliability")
         image_reliability_cmd = DeclareLaunchArgument(
             "image_reliability",
-            default_value="1",
+            default_value="2",
             choices=["0", "1", "2"],
             description="Specific reliability QoS of the input image topic (0=system default, 1=Reliable, 2=Best Effort)",
         )
@@ -152,7 +142,7 @@ def generate_launch_description():
         depth_image_reliability = LaunchConfiguration("depth_image_reliability")
         depth_image_reliability_cmd = DeclareLaunchArgument(
             "depth_image_reliability",
-            default_value="1",
+            default_value="2",
             choices=["0", "1", "2"],
             description="Specific reliability QoS of the input depth image topic (0=system default, 1=Reliable, 2=Best Effort)",
         )
@@ -167,7 +157,7 @@ def generate_launch_description():
         depth_info_reliability = LaunchConfiguration("depth_info_reliability")
         depth_info_reliability_cmd = DeclareLaunchArgument(
             "depth_info_reliability",
-            default_value="1",
+            default_value="2",
             choices=["0", "1", "2"],
             description="Specific reliability QoS of the input depth info topic (0=system default, 1=Reliable, 2=Best Effort)",
         )
@@ -195,9 +185,7 @@ def generate_launch_description():
 
         namespace = LaunchConfiguration("namespace")
         namespace_cmd = DeclareLaunchArgument(
-            "namespace",
-            default_value="yolo",
-            description="Namespace for the nodes",
+            "namespace", default_value="yolo", description="Namespace for the nodes"
         )
 
         use_debug = LaunchConfiguration("use_debug")
@@ -329,7 +317,7 @@ def generate_launch_description():
 
     use_3d = LaunchConfiguration("use_3d")
     use_3d_cmd = DeclareLaunchArgument(
-        "use_3d", default_value="True", description="Whether to activate 3D detections"
+        "use_3d", default_value="False", description="Whether to activate 3D detections"
     )
 
     return LaunchDescription(
