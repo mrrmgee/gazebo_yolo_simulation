@@ -1,4 +1,4 @@
-# Copyright (C) 2023 Miguel Ángel González Santamarta
+# Copyright (C) 2023  Miguel Ángel González Santamarta
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -41,7 +41,7 @@ def generate_launch_description():
                     "enable": LaunchConfiguration("enable", default="True"),
                     "threshold": LaunchConfiguration("threshold", default="0.5"),
                     "input_image_topic": LaunchConfiguration(
-                        "input_image_topic", default="/camera/rgb/image_raw"
+                        "input_image_topic", default="/camera"
                     ),
                     "image_reliability": LaunchConfiguration(
                         "image_reliability", default="2"
