@@ -1,0 +1,3 @@
+[submodule "yolo_sim/src/yolo_ros_aav"]
+	path = yolo_sim/src/yolo_ros_aav
+	url = https://github.com/mrrmgee/yolo_ros_aav.git
