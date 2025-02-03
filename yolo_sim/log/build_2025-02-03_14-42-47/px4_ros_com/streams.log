@@ -1,0 +1,154 @@
+[0.005s] Invoking command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_ros_com': AMENT_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com
+[0.007s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.007s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.007s]   CMake.
+[0.007s] 
+[0.007s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.007s]   to tell CMake that the project requires at least <min> but has been updated
+[0.007s]   to work with policies introduced by <max> or earlier.
+[0.007s] 
+[0.007s] [0m
+[0.032s] -- The C compiler identification is GNU 11.4.0
+[0.064s] -- The CXX compiler identification is GNU 11.4.0
+[0.069s] -- Detecting C compiler ABI info
+[0.104s] -- Detecting C compiler ABI info - done
+[0.112s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.113s] -- Detecting C compile features
+[0.113s] -- Detecting C compile features - done
+[0.119s] -- Detecting CXX compiler ABI info
+[0.160s] -- Detecting CXX compiler ABI info - done
+[0.169s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.169s] -- Detecting CXX compile features
+[0.170s] -- Detecting CXX compile features - done
+[0.174s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.246s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.292s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.312s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.314s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.319s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.345s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.350s] -- Found Eigen3: TRUE (found version "3.4.0")
+[0.351s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.370s] -- Found px4_msgs: 2.0.1 (/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/share/px4_msgs/cmake)
+[0.379s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.402s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.404s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.454s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.474s] -- Found FastRTPS: /opt/ros/humble/include
+[0.502s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.507s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.548s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.549s] -- Found Threads: TRUE
+[0.576s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.590s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.594s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.649s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.653s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.653s] -- Configured cppcheck include dirs: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/px4_ros_com/include/px4_ros_com>
+[0.653s] -- Configured cppcheck exclude dirs and/or files: 
+[0.656s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.656s] -- Configured cpplint exclude dirs and/or files: 
+[0.657s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.658s] -- Added test 'lint_cmake' to check CMake code style
+[0.659s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.662s] -- Added test 'uncrustify' to check C / C++ code style
+[0.662s] -- Configured uncrustify additional arguments: 
+[0.663s] -- Added test 'xmllint' to check XML markup files
+[0.664s] -- Configuring done (0.7s)
+[0.681s] -- Generating done (0.0s)
+[0.685s] -- Build files have been written to: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_ros_com
+[0.692s] Invoked command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com
+[0.693s] Invoking command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_ros_com': AMENT_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_ros_com -- -j16 -l16
+[0.710s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[0.710s] [ 16%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[0.710s] [ 33%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[0.710s] [ 33%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[0.710s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[0.710s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[0.712s] [ 50%] Built target ament_cmake_python_copy_px4_ros_com
+[0.826s] running egg_info
+[0.835s] creating px4_ros_com.egg-info
+[0.835s] writing px4_ros_com.egg-info/PKG-INFO
+[0.836s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[0.836s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[0.836s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[0.862s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[0.863s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[0.881s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[3.211s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[3.309s] [ 58%] Built target debug_vect_advertiser
+[3.649s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[3.765s] [ 66%] Built target offboard_control
+[4.198s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[4.321s] [ 75%] Built target offboard_control_srv
+[4.651s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[4.774s] [ 83%] Built target frame_transforms
+[5.408s] [ 91%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[5.469s] [100%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[5.588s] [100%] Built target vehicle_gps_position_listener
+[5.648s] [100%] Built target sensor_combined_listener
+[5.652s] Invoked command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_ros_com -- -j16 -l16
+[5.653s] Invoking command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_ros_com': AMENT_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_ros_com
+[5.654s] -- Install configuration: ""
+[5.655s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[5.657s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[5.657s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[5.659s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[5.659s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[5.660s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[5.660s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[5.661s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[5.661s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[5.662s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[5.663s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[5.663s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[5.663s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/include/px4_ros_com
+[5.663s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[5.663s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/libframe_transforms.so
+[5.665s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[5.665s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com//launch
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com//test
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[5.666s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[5.667s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[5.667s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[5.667s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[5.667s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[5.684s] Listing '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[5.684s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[5.684s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[5.686s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[5.687s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[5.687s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[5.687s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[5.687s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[5.687s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[5.687s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[5.687s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[5.687s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[5.687s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[5.687s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[5.688s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/package.dsv
+[5.688s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[5.688s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[5.688s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[5.688s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.688s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[5.688s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.688s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[5.688s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[5.688s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[5.688s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_ros_com/share/px4_ros_com/package.xml
+[5.690s] Invoked command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_ros_com

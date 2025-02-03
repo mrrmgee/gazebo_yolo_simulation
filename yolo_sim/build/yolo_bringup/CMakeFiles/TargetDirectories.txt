@@ -1,9 +1,0 @@
-/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_bringup/CMakeFiles/uninstall.dir
-/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_bringup/CMakeFiles/yolo_bringup_uninstall.dir
-/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_bringup/CMakeFiles/test.dir
-/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_bringup/CMakeFiles/edit_cache.dir
-/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_bringup/CMakeFiles/rebuild_cache.dir
-/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_bringup/CMakeFiles/list_install_components.dir
-/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_bringup/CMakeFiles/install.dir
-/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_bringup/CMakeFiles/install/local.dir
-/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_bringup/CMakeFiles/install/strip.dir
