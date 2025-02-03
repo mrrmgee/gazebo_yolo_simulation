@@ -1,0 +1,18 @@
+{
+  "package_name": "yolo_msgs",
+  "non_idl_tuples": [
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/Point2D.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/Vector2.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/Pose2D.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/BoundingBox2D.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/BoundingBox3D.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/Mask.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/KeyPoint2D.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/KeyPoint2DArray.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/KeyPoint3D.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/KeyPoint3DArray.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/Detection.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:msg/DetectionArray.msg",
+    "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros_aav/yolo_msgs:srv/SetClasses.srv"
+  ]
+}
