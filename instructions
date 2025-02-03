@@ -1,0 +1,12 @@
+Steps:
+Run px4_client.sh
+Wait for gazebo
+Run XRCE_Agent_run.sh
+Wait for start
+Run yolo_startup_simulate
+Wait
+Run rviz.sh to watch video feed
+Wait
+new terminal
+run this:
+ros2 run ros_gz_bridge parameter_bridge /camera@sensor_msgs/msg/Image@gz.msgs.Image
