@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "px4_msgs__py",
+		"source" : "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/px4_msgs/px4_msgs__py"
+	}
+}
