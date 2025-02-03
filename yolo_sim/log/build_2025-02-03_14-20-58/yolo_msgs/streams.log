@@ -1,0 +1,637 @@
+[0.006s] Invoking command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs
+[0.008s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.008s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.008s]   CMake.
+[0.008s] 
+[0.008s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.009s]   to tell CMake that the project requires at least <min> but has been updated
+[0.009s]   to work with policies introduced by <max> or earlier.
+[0.009s] 
+[0.009s] [0m
+[0.035s] -- The C compiler identification is GNU 11.4.0
+[0.066s] -- The CXX compiler identification is GNU 11.4.0
+[0.070s] -- Detecting C compiler ABI info
+[0.106s] -- Detecting C compiler ABI info - done
+[0.115s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.115s] -- Detecting C compile features
+[0.115s] -- Detecting C compile features - done
+[0.121s] -- Detecting CXX compiler ABI info
+[0.162s] -- Detecting CXX compiler ABI info - done
+[0.171s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.171s] -- Detecting CXX compile features
+[0.172s] -- Detecting CXX compile features - done
+[0.180s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.251s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.299s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.306s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.360s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.380s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.670s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.282s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.282s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.282s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.282s]   the cmake_policy command to set the policy and suppress this warning.
+[1.282s] 
+[1.282s] Call Stack (most recent call first):
+[1.282s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.282s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.282s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[1.282s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.282s] [0m
+[1.293s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[1.294s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.294s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.294s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.294s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.294s]   the cmake_policy command to set the policy and suppress this warning.
+[1.294s] 
+[1.294s] Call Stack (most recent call first):
+[1.294s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.294s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.294s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.294s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[1.294s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.294s] [0m
+[1.305s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.305s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.305s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.305s]   the cmake_policy command to set the policy and suppress this warning.
+[1.305s] 
+[1.305s] Call Stack (most recent call first):
+[1.306s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.306s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.306s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.306s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[1.306s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.306s] [0m
+[1.309s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[1.309s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.309s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.309s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.321s] -- Found PythonExtra: .so
+[1.358s] -- Configuring done (1.4s)
+[1.395s] -- Generating done (0.0s)
+[1.400s] -- Build files have been written to: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_msgs
+[1.405s] Invoked command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs
+[1.406s] Invoking command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_msgs -- -j16 -l16
+[1.421s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.425s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.426s] [  1%] Built target ament_cmake_python_copy_yolo_msgs
+[1.527s] running egg_info
+[1.535s] creating yolo_msgs.egg-info
+[1.535s] writing yolo_msgs.egg-info/PKG-INFO
+[1.535s] writing dependency_links to yolo_msgs.egg-info/dependency_links.txt
+[1.535s] writing top-level names to yolo_msgs.egg-info/top_level.txt
+[1.535s] writing manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[1.558s] reading manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[1.558s] writing manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[1.573s] [  1%] Built target ament_cmake_python_build_yolo_msgs_egg
+[1.927s] [  1%] Built target yolo_msgs__cpp
+[1.930s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.930s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.930s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.960s] [  4%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/point2_d__functions.c.o[0m
+[1.960s] [  5%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/vector2__functions.c.o[0m
+[1.960s] [  5%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/pose2_d__functions.c.o[0m
+[1.960s] [  7%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/bounding_box3_d__functions.c.o[0m
+[1.960s] [  7%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/bounding_box2_d__functions.c.o[0m
+[1.960s] [  7%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point2_d__functions.c.o[0m
+[1.960s] [  9%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point2_d_array__functions.c.o[0m
+[1.961s] [  9%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/mask__functions.c.o[0m
+[1.961s] [ 10%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d__functions.c.o[0m
+[1.961s] [ 11%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d_array__functions.c.o[0m
+[1.961s] [ 11%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detection_array__functions.c.o[0m
+[1.961s] [ 12%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detection__functions.c.o[0m
+[1.965s] [ 13%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/srv/detail/set_classes__functions.c.o[0m
+[2.007s] [ 14%] [32m[1mLinking C shared library libyolo_msgs__rosidl_generator_c.so[0m
+[2.025s] [ 14%] Built target yolo_msgs__rosidl_generator_c
+[2.029s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.029s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.029s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.325s] [ 18%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/point2_d__type_support.cpp.o[0m
+[2.325s] [ 19%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/pose2_d__type_support.cpp.o[0m
+[2.325s] [ 19%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/vector2__type_support.cpp.o[0m
+[2.325s] [ 20%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[2.325s] [ 21%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[2.326s] [ 22%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point2_d__type_support.cpp.o[0m
+[2.326s] [ 23%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/mask__type_support.cpp.o[0m
+[2.326s] [ 23%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point2_d_array__type_support.cpp.o[0m
+[2.326s] [ 24%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point3_d_array__type_support.cpp.o[0m
+[2.326s] [ 25%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point3_d__type_support.cpp.o[0m
+[2.327s] [ 26%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/detection__type_support.cpp.o[0m
+[2.503s] [ 27%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/point2_d__type_support.cpp.o[0m
+[2.516s] [ 27%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/point2_d__type_support.cpp.o[0m
+[2.545s] [ 28%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/vector2__type_support.cpp.o[0m
+[2.548s] [ 29%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/vector2__type_support.cpp.o[0m
+[2.553s] [ 30%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/detection_array__type_support.cpp.o[0m
+[2.554s] [ 30%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/srv/set_classes__type_support.cpp.o[0m
+[2.556s] [ 31%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/pose2_d__type_support.cpp.o[0m
+[2.566s] [ 32%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/bounding_box2_d__type_support.cpp.o[0m
+[2.566s] [ 33%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[2.566s] [ 33%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/pose2_d__type_support.cpp.o[0m
+[2.566s] [ 34%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/mask__type_support.cpp.o[0m
+[2.568s] [ 35%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[2.569s] [ 36%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[2.575s] [ 37%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point2_d__type_support.cpp.o[0m
+[2.577s] [ 38%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point2_d_array__type_support.cpp.o[0m
+[2.590s] [ 39%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point3_d__type_support.cpp.o[0m
+[2.592s] [ 39%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point3_d_array__type_support.cpp.o[0m
+[2.596s] [ 39%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/mask__type_support.cpp.o[0m
+[2.598s] [ 40%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o[0m
+[2.619s] [ 41%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point2_d__type_support.cpp.o[0m
+[2.645s] [ 42%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point2_d_array__type_support.cpp.o[0m
+[2.671s] [ 43%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point3_d__type_support.cpp.o[0m
+[2.682s] [ 44%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/point2_d__type_support.c.o[0m
+[2.700s] [ 45%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point3_d_array__type_support.cpp.o[0m
+[2.715s] [ 46%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/vector2__type_support.c.o[0m
+[2.727s] [ 46%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/detection__type_support.cpp.o[0m
+[2.729s] [ 47%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/point2_d__type_support_c.cpp.o[0m
+[2.752s] [ 47%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/pose2_d__type_support.c.o[0m
+[2.758s] [ 48%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/detection_array__type_support.cpp.o[0m
+[2.783s] [ 49%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/bounding_box2_d__type_support.c.o[0m
+[2.789s] [ 50%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/srv/set_classes__type_support.cpp.o[0m
+[2.799s] [ 51%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/vector2__type_support.cpp.o[0m
+[2.801s] [ 52%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_cpp.so[0m
+[2.817s] [ 53%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_c.so[0m
+[2.818s] [ 54%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/bounding_box3_d__type_support.c.o[0m
+[2.827s] [ 55%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/mask__type_support.c.o[0m
+[2.841s] [ 55%] Built target yolo_msgs__rosidl_typesupport_cpp
+[2.846s] [ 55%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/vector2__type_support_c.cpp.o[0m
+[2.861s] [ 56%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[2.861s] [ 56%] Built target yolo_msgs__rosidl_typesupport_c
+[2.862s] [ 57%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point2_d__type_support.c.o[0m
+[2.863s] [ 58%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[2.882s] [ 59%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/bounding_box2_d__type_support.cpp.o[0m
+[2.883s] [ 59%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/detection__type_support.cpp.o[0m
+[2.883s] [ 60%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/bounding_box2_d__type_support_c.cpp.o[0m
+[2.885s] [ 61%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[2.892s] [ 62%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[2.892s] [ 62%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point2_d_array__type_support.c.o[0m
+[2.922s] [ 64%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/mask__type_support_c.cpp.o[0m
+[2.922s] [ 64%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point3_d__type_support.c.o[0m
+[2.925s] [ 65%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point3_d_array__type_support.c.o[0m
+[2.932s] [ 65%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point2_d__type_support_c.cpp.o[0m
+[2.933s] [ 66%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/mask__type_support.cpp.o[0m
+[2.960s] [ 67%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point2_d_array__type_support_c.cpp.o[0m
+[2.961s] [ 68%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point3_d__type_support_c.cpp.o[0m
+[2.961s] [ 69%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/detection__type_support.c.o[0m
+[2.995s] [ 70%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/detection_array__type_support.c.o[0m
+[3.037s] [ 70%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/srv/detail/set_classes__type_support.c.o[0m
+[3.037s] [ 71%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point2_d__type_support.cpp.o[0m
+[3.075s] [ 72%] [32m[1mLinking C shared library libyolo_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.103s] [ 72%] Built target yolo_msgs__rosidl_typesupport_introspection_c
+[3.108s] [ 73%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point2_d_array__type_support.cpp.o[0m
+[3.137s] [ 75%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/detection_array__type_support.cpp.o[0m
+[3.137s] [ 75%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/srv/detail/set_classes__type_support.cpp.o[0m
+[3.161s] [ 75%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point3_d__type_support.cpp.o[0m
+[3.170s] [ 76%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point3_d_array__type_support.cpp.o[0m
+[3.184s] [ 78%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/detection_array__type_support.cpp.o[0m
+[3.184s] [ 78%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[3.224s] [ 79%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/srv/detail/dds_fastrtps/set_classes__type_support.cpp.o[0m
+[3.224s] [ 80%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point3_d_array__type_support_c.cpp.o[0m
+[3.246s] [ 81%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/detection__type_support_c.cpp.o[0m
+[3.249s] [ 81%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/detection_array__type_support_c.cpp.o[0m
+[3.255s] [ 82%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/srv/detail/set_classes__type_support_c.cpp.o[0m
+[3.524s] [ 83%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.526s] [ 84%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.567s] [ 84%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c
+[3.569s] [ 84%] Built target yolo_msgs__rosidl_typesupport_introspection_cpp
+[3.573s] [ 84%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.614s] [ 84%] Built target yolo_msgs__rosidl_typesupport_fastrtps_cpp
+[3.620s] [ 84%] Built target yolo_msgs
+[3.627s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.513s] [ 85%] Built target yolo_msgs__py
+[4.519s] [ 86%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_point2_d_s.c.o[0m
+[4.519s] [ 86%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_vector2_s.c.o[0m
+[4.520s] [ 87%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_pose2_d_s.c.o[0m
+[4.520s] [ 88%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_bounding_box2_d_s.c.o[0m
+[4.520s] [ 89%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_mask_s.c.o[0m
+[4.520s] [ 90%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_bounding_box3_d_s.c.o[0m
+[4.520s] [ 90%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point2_d_s.c.o[0m
+[4.521s] [ 91%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point2_d_array_s.c.o[0m
+[4.521s] [ 92%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point3_d_s.c.o[0m
+[4.521s] [ 93%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point3_d_array_s.c.o[0m
+[4.521s] [ 94%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_detection_s.c.o[0m
+[4.521s] [ 95%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_detection_array_s.c.o[0m
+[4.521s] [ 95%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/srv/_set_classes_s.c.o[0m
+[4.608s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/libyolo_msgs__rosidl_generator_py.so[0m
+[4.628s] [ 96%] Built target yolo_msgs__rosidl_generator_py
+[4.634s] [ 97%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.634s] [ 98%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.634s] [ 99%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.706s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.706s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.706s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.724s] [100%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.724s] [100%] Built target yolo_msgs__rosidl_typesupport_c__pyext
+[4.724s] [100%] Built target yolo_msgs__rosidl_typesupport_introspection_c__pyext
+[4.729s] Invoked command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_msgs -- -j16 -l16
+[4.730s] Invoking command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_msgs
+[4.732s] -- Install configuration: ""
+[4.732s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/ament_index/resource_index/rosidl_interfaces/yolo_msgs
+[4.732s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[4.732s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[4.732s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[4.732s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__functions.h
+[4.732s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.h
+[4.732s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.h
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__functions.c
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.h
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__functions.h
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.h
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.h
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.h
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.h
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.h
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__functions.h
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.h
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__functions.h
+[4.733s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.h
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__functions.c
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.h
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__functions.c
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__functions.c
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.h
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__functions.h
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__functions.c
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.h
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.h
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.h
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__functions.h
+[4.734s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__functions.c
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__functions.h
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__functions.h
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.h
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.h
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.h
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.h
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__functions.c
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.h
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__functions.h
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__functions.c
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.h
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__functions.h
+[4.735s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__functions.h
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__functions.c
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__functions.c
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__functions.c
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.h
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__functions.c
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__functions.c
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.h
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.h
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.h
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.h
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__functions.h
+[4.736s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__functions.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.h
+[4.737s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.h
+[4.738s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.738s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/environment/library_path.sh
+[4.738s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/environment/library_path.dsv
+[4.738s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so
+[4.738s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so" to ""
+[4.738s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[4.738s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[4.738s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[4.738s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_c.h
+[4.738s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[4.738s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[4.738s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.739s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so
+[4.740s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.740s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[4.740s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[4.740s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[4.740s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_c.h
+[4.740s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.c
+[4.740s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[4.740s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[4.740s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.c
+[4.740s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.c
+[4.740s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+[4.740s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.c
+[4.740s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[4.740s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.c
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.c
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.c
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_c.h
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.c
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.c
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.c
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h
+[4.741s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[4.742s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.c
+[4.742s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.c
+[4.742s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h
+[4.742s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[4.742s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+[4.742s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.c
+[4.742s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.742s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so
+[4.742s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.743s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so
+[4.743s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so" to ""
+[4.743s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[4.743s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[4.743s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.hpp
+[4.743s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[4.743s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__traits.hpp
+[4.743s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.hpp
+[4.743s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__builder.hpp
+[4.743s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.hpp
+[4.743s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[4.743s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.hpp
+[4.743s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.hpp
+[4.743s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[4.743s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__traits.hpp
+[4.743s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__builder.hpp
+[4.743s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__builder.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__traits.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__traits.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__traits.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__builder.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.hpp
+[4.744s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__builder.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__traits.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__traits.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__traits.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__traits.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__builder.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__traits.hpp
+[4.745s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__builder.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__builder.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__builder.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__builder.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__builder.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__traits.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.hpp
+[4.746s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__builder.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__builder.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__traits.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__traits.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.hpp
+[4.747s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.hpp
+[4.748s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.hpp
+[4.748s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.hpp
+[4.748s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.hpp
+[4.748s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.hpp
+[4.748s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.hpp
+[4.748s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.748s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[4.748s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[4.748s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[4.748s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_cpp.hpp
+[4.748s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/dds_fastrtps
+[4.748s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[4.748s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.748s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[4.748s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[4.748s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/dds_fastrtps
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.749s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.750s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.750s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[4.750s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[4.750s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[4.750s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_cpp.hpp
+[4.750s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.cpp
+[4.750s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[4.750s] -- Up-to-date: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[4.750s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[4.750s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp
+[4.750s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[4.750s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
+[4.750s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.cpp
+[4.751s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp
+[4.751s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[4.751s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.cpp
+[4.751s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.cpp
+[4.751s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.751s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.cpp
+[4.751s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.cpp
+[4.751s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[4.751s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.751s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.cpp
+[4.751s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.cpp
+[4.752s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.cpp
+[4.752s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.cpp
+[4.752s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.752s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[4.752s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.752s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.cpp
+[4.752s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.cpp
+[4.752s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.cpp
+[4.752s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so
+[4.753s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.753s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so
+[4.753s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so" to ""
+[4.753s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.sh
+[4.753s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.dsv
+[4.753s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.0.1-py3.10.egg-info
+[4.753s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.0.1-py3.10.egg-info/top_level.txt
+[4.753s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.0.1-py3.10.egg-info/SOURCES.txt
+[4.753s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.0.1-py3.10.egg-info/PKG-INFO
+[4.753s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.0.1-py3.10.egg-info/dependency_links.txt
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/libyolo_msgs__rosidl_generator_py.so
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/__init__.py
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes_s.c
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes.py
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d_s.c
+[4.754s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d.py
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d.py
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection.py
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d.py
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array.py
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array_s.c
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_s.c
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/__init__.py
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d_s.c
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d.py
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array.py
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2_s.c
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_s.c
+[4.755s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d_s.c
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_s.c
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask.py
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array_s.c
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array.py
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d.py
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array_s.c
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d.py
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d_s.c
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2.py
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask_s.c
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/__init__.py
+[4.756s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.757s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.781s] Listing '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/__init__.py'...
+[4.781s] Listing '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/__init__.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2.py'...
+[4.781s] Listing '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/__init__.py'...
+[4.781s] Compiling '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes.py'...
+[4.783s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.784s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.784s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.784s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.784s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.785s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.785s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so
+[4.785s] -- Set non-toolchain portion of runtime path of "/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so" to ""
+[4.785s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/Point2D.idl
+[4.785s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/Vector2.idl
+[4.785s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.idl
+[4.785s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.idl
+[4.785s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.idl
+[4.785s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/Mask.idl
+[4.785s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.idl
+[4.786s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.idl
+[4.786s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.idl
+[4.786s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.idl
+[4.786s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/Detection.idl
+[4.786s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.idl
+[4.786s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.idl
+[4.786s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/Point2D.msg
+[4.786s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/Vector2.msg
+[4.786s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.msg
+[4.787s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.msg
+[4.787s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.msg
+[4.787s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/Mask.msg
+[4.787s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.msg
+[4.787s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.msg
+[4.787s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.msg
+[4.787s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.msg
+[4.787s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/Detection.msg
+[4.787s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.msg
+[4.787s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.srv
+[4.788s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Request.msg
+[4.788s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Response.msg
+[4.788s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/ament_index/resource_index/package_run_dependencies/yolo_msgs
+[4.788s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/ament_index/resource_index/parent_prefix_path/yolo_msgs
+[4.788s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.sh
+[4.788s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.dsv
+[4.788s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/environment/path.sh
+[4.788s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/environment/path.dsv
+[4.788s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/local_setup.bash
+[4.788s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/local_setup.sh
+[4.789s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/local_setup.zsh
+[4.789s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/local_setup.dsv
+[4.789s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/package.dsv
+[4.789s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/ament_index/resource_index/packages/yolo_msgs
+[4.789s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport.cmake
+[4.789s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.789s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.789s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.790s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.790s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.790s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport.cmake
+[4.790s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.790s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cppExport.cmake
+[4.790s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.790s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.790s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.790s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.791s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport.cmake
+[4.791s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.791s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport.cmake
+[4.791s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.791s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake-extras.cmake
+[4.791s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.791s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.791s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.791s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.791s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.792s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.792s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig.cmake
+[4.792s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig-version.cmake
+[4.792s] -- Installing: /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/install/yolo_msgs/share/yolo_msgs/package.xml
+[4.793s] Invoked command in '/home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/jackson/Final_simulation_full/gazebo_yolo_simulation/yolo_sim/build/yolo_msgs
